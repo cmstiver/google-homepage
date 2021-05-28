@@ -54,6 +54,27 @@ a {
   margin-right: auto;
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px;
+  margin: 10px;
+  margin-top: 15px;
+}
+
+.bottomnav1 {
+  justify-content: left;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  width: 50%;
+}
+
 </style>
 
 <head>
@@ -85,6 +106,15 @@ a {
 
 <div>
   <input type="text" class="bar">
+</div>
+
+<div class="buttons">
+  <input type="button" class="button" value="Google Search">
+  <input type="button" class="button" value="I'm Feeling Lucky">
+</div>
+
+<div class="bottomnav1">
+  <a href="#">Advertising</a>
 </div>
 
 </body>
